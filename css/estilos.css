@@ -1,0 +1,303 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Index css*/
+.container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(204, 23, 23);
+    text-shadow: 2px 2px 5px rgb(2, 2, 2);
+}
+h2.a {
+    color: rgb(255, 0, 0);
+}
+h3 {
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+}
+ul {
+    list-style-type: circle;
+  }
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+nav div {
+    display: inline-block;
+    width: 20%;
+}
+
+span.pagp {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    float: right;
+    height: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+div.fotoynombre {
+    text-align: center;
+}
+
+div.infomia {
+    text-align: left;
+}
+
+main {
+    float: left;
+    margin-right: 5%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.course {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 2ex;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    width: 33%;
+}
+
+.course img {
+    width: 60%;
+}
+
+.articles {
+    column-count: 3;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    float: left;
+    width: 100%;
+    height: 95%;
+}
+
+.articles1 {
+    column-count: 2;
+    margin-top: 30px;
+    margin-right: 5%;
+    float: left;
+    width: 100%;
+    height: 95%;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    
+}
+
+div.redess div {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    width: 20%;
+}
+
+p.cosas {
+    text-align: center;
+}
+
+
+/*Curriculum css*/
+
+span.curr {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+div.redess1 div {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    width: 20%;
+}
+
+.container1 {
+    width: 100%;
+}
+
+main.curriculum {
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 60%;
+    height: 950px;
+    margin-top: 10px;
+}
+
+.sidebar1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 950px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+nav.curriculumlado {
+    float: right;
+    background-color: rgb(109, 121, 134);
+    color: rgb(0, 0, 0);
+    height: 950px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 15%;
+    padding: 20px;
+}
+
+div.partearriba {
+    border: 1px solid black;
+    background-color: rgb(192, 192, 192);
+    text-align: left;
+    padding-left: 5px;
+    height: 200px;
+}
+
+div.fotocurriculum {
+    position: relative;
+    top: -140px;
+    left: 520px;
+    margin-right: 500px;
+}
+
+div.parteabajo {
+    padding-left: 5px;
+    height: 680px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.articles2 {
+    column-count: 3;
+    margin-right: 5%;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+  }
+
+  h4.trabajo {
+    text-transform: capitalize;
+  }
+
+/*Formulario css*/
+
+span.form {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.sidebar2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 950px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+nav.formulariolado {
+    float: left;
+    background-color: rgb(109, 121, 134);
+    color: rgb(255, 255, 255);
+    height: 950px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+}
+main.formulario {
+    float: left;
+    margin-left: 5%;
+    width: 59%;
+    height: 950px;
+    margin-top: 10px;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  fieldset {
+    border-radius: 20px;
+  }
+
+/*Desarollo css*/
+
+span.desa {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 950px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+main.desarollo {
+    float: left;
+    margin-left: 5%;
+    width: 75%;
+    height: 950px;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+p.indent {
+    text-indent: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Te
